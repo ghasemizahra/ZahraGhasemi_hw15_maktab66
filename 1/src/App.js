@@ -1,12 +1,9 @@
-import Todo from "./components/Todo";
-
-
+import './App.css';
+import Todo from './components/Todo';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       <Todo/>
-      </header>
+      <Todo/>
     </div>
   );
 }
